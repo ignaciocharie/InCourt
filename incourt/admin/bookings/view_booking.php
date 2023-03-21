@@ -29,8 +29,6 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
             <dd class="pl-4"><?= isset($facility_code) ? $facility_code : "" ?></dd>
             <dt class="">Name</dt>
             <dd class="pl-4"><?= isset($name) ? $name : "" ?></dd>
-            <dt class="">Category</dt>
-            <dd class="pl-4"><?= isset($category) ? $category : "" ?></dd>
         </dl>
     </fieldset>
     <div class="clear-fix my-2"></div>
@@ -43,7 +41,7 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
             <dd class="pl-4"><?= isset($client) ? $client : "" ?></dd>
             <dt class="">Schedule</dt>
             <dd class="pl-4"><?= isset($date_to) ? $date_to : "" ?></dd>
-            <dt class="">Scheduled Start Time</dt>
+            <dt class="">Start Time</dt>
             <dd class="pl-4"><?= isset($start_time) ? $start_time : "" ?></dd>
             <dt class="">End Time</dt>
             <dd class="pl-4"><?= isset($end_time) ? $end_time : "" ?></dd>
